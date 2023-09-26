@@ -406,10 +406,10 @@
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
