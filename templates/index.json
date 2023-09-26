@@ -436,11 +436,29 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "8d013a59-23ad-4288-9ab8-74f90a6611f9": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-1",
-        "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-2"
+        "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-2",
+        "8d013a59-23ad-4288-9ab8-74f90a6611f9"
       ],
       "settings": {
         "layout": "full_bleed",
