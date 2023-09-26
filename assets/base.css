@@ -2645,7 +2645,6 @@ details[open] > .header__submenu {
   color: #fff;
  /*  margin-left: 15px; */
  
-  width:180px;
   
   font-family: 'Inter', sans-serif;
 
@@ -2988,8 +2987,9 @@ details-disclosure > details {
 /* custom properties */
 
 .header__menu-item-destak{
-  background-color: #E13D00!important;
-  border: 1px solid #E13D00!important;
+  /* background-color: #E13D00!important;
+  border: 1px solid #E13D00!important; */
+  border:0;
 }
 
 .banner__content{
