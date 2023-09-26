@@ -2641,13 +2641,23 @@ details[open] > .header__submenu {
 
 .header__menu-item {
   padding: 1rem 1.2rem;
-  text-decoration: none;
+  
   color: #fff;
  /*  margin-left: 15px; */
-  border: solid 2px #fff;
+ 
   width:180px;
-  font-size: 16px;
+  
   font-family: 'Inter', sans-serif;
+
+  border: 0 !important;
+  background: transparent !important;
+  padding: 0;
+
+
+  text-decoration: none;
+  
+  font-size: 1.3rem !important;
+
 }
 
 .header__menu-item:hover {
