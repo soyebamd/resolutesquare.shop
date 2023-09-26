@@ -118,9 +118,9 @@
         "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": ""
       }
     },
     "0e5927e9-350d-4914-b805-5abcc1ae7049": {
