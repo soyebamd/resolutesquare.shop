@@ -71,6 +71,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "68b85f22-dbbb-46a5-b4ef-301fa740c7e9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/enemies_banner.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-2": {
           "type": "slide",
           "settings": {
@@ -107,10 +125,10 @@
             "text_alignment_mobile": "center"
           }
         },
-        "68b85f22-dbbb-46a5-b4ef-301fa740c7e9": {
+        "f0a47b1d-c7fc-458f-b40a-4fc3fd092498": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/enemies_banner.png",
+            "image": "shopify:\/\/shop_images\/Trippi_banner.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -128,9 +146,10 @@
       },
       "block_order": [
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-1",
+        "68b85f22-dbbb-46a5-b4ef-301fa740c7e9",
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-2",
         "273d7ab4-1abc-4c2d-ae43-3718d7a081f0",
-        "68b85f22-dbbb-46a5-b4ef-301fa740c7e9"
+        "f0a47b1d-c7fc-458f-b40a-4fc3fd092498"
       ],
       "settings": {
         "layout": "full_bleed",
