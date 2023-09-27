@@ -115,7 +115,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
@@ -203,19 +203,19 @@
         "74660c28-86ab-4162-8e58-ff057863ca77": {
           "type": "featured_collection",
           "settings": {
-            "collection": "resolute-square-hoodies"
+            "collection": "impeached-convicted"
           }
         },
         "4691d676-65c4-41ed-bfd0-690fe17e5a06": {
           "type": "featured_collection",
           "settings": {
-            "collection": "resolute-square-crewneck"
+            "collection": "that-trippy-show"
           }
         },
         "4279cbce-bd54-4160-b3f1-de3bb52ab80f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accesories"
+            "collection": "the-enemy-list"
           }
         }
       },
