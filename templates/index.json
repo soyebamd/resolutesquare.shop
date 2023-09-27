@@ -63,7 +63,7 @@
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "bottom-left",
+            "box_align": "top-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -157,7 +157,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": ""
       }
     },
