@@ -3003,9 +3003,9 @@ details-disclosure > details {
   border:0;
 }
 
-.banner__content{
+/* .banner__content{
   display: block!important;
-}
+} */
 
 .banner__box{
   max-width: 54rem!important;
