@@ -116,14 +116,9 @@
               {{ block.settings.image | image_url: width: 3840 }}
             {% endcapture %}
 
-            {{smallScreenImage}}
-
-            <br>
-
-            {{largeScreenImage}}
             
             <img
-              src="{{ smallScreenImage }}"
+            
               srcset="{{ largeScreenImage }} 3840w, {{ smallScreenImage }} 550w"
               sizes="100vw"
               loading="lazy"
