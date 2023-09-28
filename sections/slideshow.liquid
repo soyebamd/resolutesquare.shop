@@ -115,6 +115,10 @@
             {% capture largeScreenImage %}
               {{ block.settings.image | image_url: width: 3840 }}
             {% endcapture %}
+
+            {{smallScreenImage}}
+
+            {{largeScreenImage}}
             
             <img
               src="{{ smallScreenImage }}"
