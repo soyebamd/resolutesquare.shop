@@ -105,6 +105,16 @@
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
             }} {% endcomment %}
 
+
+            <script>
+
+            const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+            alert({{'test for liquid code'}})
+
+
+            </script>
+
             {% capture smallScreenImage %}
               {% assign imageWidth = 550 %}
               {{ 'https://resolutesquare.shop/cdn/shop/files/MKP-DTF-RES-FNUHPS-BA960-White-DGszZJ-0101-Front.png' | width:550  }}
