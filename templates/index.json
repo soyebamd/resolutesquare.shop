@@ -60,7 +60,7 @@
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "WEWE",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "bottom-left",
@@ -155,7 +155,7 @@
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": false,
         "accessibility_info": ""
