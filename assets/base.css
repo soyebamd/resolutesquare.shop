@@ -3011,6 +3011,10 @@ details-disclosure > details {
   max-width: 54rem!important;
 }
 
+.img-fluid{max-width:100%;}
+
+.mx-auto{ margin:auto; }
+
 .banner__text{
   font-weight: 400!important;
   font-size: 24px!important;
