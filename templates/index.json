@@ -20,8 +20,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "BUY THIS PRODUCT",
-            "button_link_1": "https:\/\/resolutesquare.shop\/products\/we-are-right-womans-t-shirt",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/resolute-square",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -56,9 +56,27 @@
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/R2_newbanner_images_9782da5b-0646-41af-bc1a-1e2e4cef9357.png",
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/r2_Banner.png",
+            "heading": "heading",
             "heading_size": "h1",
+            "subheading": "subheading",
+            "button_label": "button",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "68b85f22-dbbb-46a5-b4ef-301fa740c7e9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/enemies_banner.png",
+            "heading": "",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -74,7 +92,25 @@
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/R2_newbanner_images_9782da5b-0646-41af-bc1a-1e2e4cef9357.png",
+            "image": "shopify:\/\/shop_images\/zerolinebanner.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/zeroline",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "273d7ab4-1abc-4c2d-ae43-3718d7a081f0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/impeached-banner.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -89,12 +125,12 @@
             "text_alignment_mobile": "center"
           }
         },
-        "273d7ab4-1abc-4c2d-ae43-3718d7a081f0": {
+        "f0a47b1d-c7fc-458f-b40a-4fc3fd092498": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/R2_newbanner_images_9782da5b-0646-41af-bc1a-1e2e4cef9357.png",
+            "image": "shopify:\/\/shop_images\/Trippi_banner.png",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -110,16 +146,18 @@
       },
       "block_order": [
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-1",
+        "68b85f22-dbbb-46a5-b4ef-301fa740c7e9",
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-2",
-        "273d7ab4-1abc-4c2d-ae43-3718d7a081f0"
+        "273d7ab4-1abc-4c2d-ae43-3718d7a081f0",
+        "f0a47b1d-c7fc-458f-b40a-4fc3fd092498"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": ""
       }
     },
@@ -161,6 +199,7 @@
         "template--20871791083831__211f0ea8-f2f0-4080-b82a-7efd554196e8-heading-1",
         "template--20871791083831__211f0ea8-f2f0-4080-b82a-7efd554196e8-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -203,19 +242,25 @@
         "74660c28-86ab-4162-8e58-ff057863ca77": {
           "type": "featured_collection",
           "settings": {
-            "collection": "resolute-square-hoodies"
+            "collection": "impeached-convicted"
           }
         },
         "4691d676-65c4-41ed-bfd0-690fe17e5a06": {
           "type": "featured_collection",
           "settings": {
-            "collection": "resolute-square-crewneck"
+            "collection": "that-trippy-show"
           }
         },
         "4279cbce-bd54-4160-b3f1-de3bb52ab80f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accesories"
+            "collection": "the-enemy-list"
+          }
+        },
+        "c225c2e4-56f6-44ef-bcde-f9231f48b413": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zeroline"
           }
         }
       },
@@ -226,13 +271,14 @@
         "c34acee3-85a9-4c9e-8491-25eef747d7d2",
         "74660c28-86ab-4162-8e58-ff057863ca77",
         "4691d676-65c4-41ed-bfd0-690fe17e5a06",
-        "4279cbce-bd54-4160-b3f1-de3bb52ab80f"
+        "4279cbce-bd54-4160-b3f1-de3bb52ab80f",
+        "c225c2e4-56f6-44ef-bcde-f9231f48b413"
       ],
       "settings": {
         "title": "FEATURED COLLECTIONS >",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
