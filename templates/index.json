@@ -95,6 +95,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/zerolinebanner.png",
+            "mob_image": "shopify:\/\/shop_images\/MKP-DTF-RES-FNUCNS-BA1102-Navy-VeJN2x-1011-Front.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
