@@ -6,11 +6,11 @@
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
-      #Slider-{{ section.id }}: : before, #Slider-{{ section.id }}.media::before, #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before  {
+      /* #Slider-{{ section.id }}: : before, #Slider-{{ section.id }}.media::before, #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before  {
         padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
-      }
+      } */
     }
 
 
@@ -162,8 +162,8 @@
              loading: 'lazy',
              class: 'for-desk',
              height: 800,
-             sizes: "100vw"
-             }}
+             sizes: "100vw",
+             widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
 
 
 
