@@ -7,8 +7,7 @@
   {%- style -%}
     @media screen and (max-width: 749px) {
       #Slider-{{ section.id }}: : before, #Slider-{{ section.id }}.media::before, #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before  {
-        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}
-        %;
+        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
       }
@@ -32,8 +31,7 @@
       }
 
       #Slider-{{ section.id }}: : before, #Slider-{{ section.id }}.media::before {
-        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}
-        %;
+        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
       }
@@ -122,8 +120,7 @@
     {%- for block in section.blocks -%}
       <style>
         #Slide-{{ section.id }}-{{ forloop.index }}.banner__media::after {
-          opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }}
-          ;
+          opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
         }
       </style>
       <div
@@ -160,7 +157,7 @@
             {{ block.settings.image | image_url: width: 3840 | image_tag: 
              loading: 'lazy',
              class: 'for-desk',
-             height: 600,
+             height: height,
              sizes: "100vw",
              widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
 
