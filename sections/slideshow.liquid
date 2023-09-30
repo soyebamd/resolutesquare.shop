@@ -39,19 +39,19 @@
 
 
     .for-mob {
-      display: block;
+      display: block!important;
     }
     .for-desk {
-      display: none;
+      display: none!important;
     }
 
     @media screen and (min-width: 750px) {
 
       .for-mob {
-        display: none;
+        display: none!important;
       }
       .for-desk {
-        display: block;
+        display: block!important;
       }
 
       #Slider-{{ section.id }}: : before, #Slider-{{ section.id }}.media::before {
@@ -182,12 +182,22 @@
 
 
 
+
+
             {{ block.settings.image | image_url: width: 3840 | image_tag: 
              loading: 'lazy',
              class: 'for-desk',
-             height: 800,
+             height: height,
              sizes: "100vw",
              widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+
+
+             
+            {{ block.settings.mob_image | image_url: width: 840 | image_tag: 
+            loading: 'lazy',
+            class: 'for-mob'          
+            
+            }}
 
 
 
