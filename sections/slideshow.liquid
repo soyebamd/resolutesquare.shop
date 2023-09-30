@@ -157,14 +157,6 @@
 
 
 
-            {{ block.settings.image | image_url: width: 3840 | image_tag: 
-             loading: 'lazy',
-             class: 'for-desk',
-             height: 500,
-             sizes: "100vw" }}
-
-
-
           {%- else -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
