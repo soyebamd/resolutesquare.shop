@@ -57,7 +57,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/r2_Banner.png",
-            "mob_image": "shopify:\/\/shop_images\/R2_Mobile.png",
+            "mob_image": "shopify:\/\/shop_images\/R2_Mobile_1.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -76,7 +76,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/enemies_banner.png",
-            "mob_image": "shopify:\/\/shop_images\/MKP-DTF-RES-PRWSST-BA4990-White-g9u5gm-1011-Back.png",
+            "mob_image": "shopify:\/\/shop_images\/rick_Wilson_mobile.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -95,7 +95,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/zerolinebanner.png",
-            "mob_image": "shopify:\/\/shop_images\/MKP-DTF-RES-FNUCNS-BA1102-Navy-VeJN2x-1011-Front.png",
+            "mob_image": "shopify:\/\/shop_images\/zeroline_Mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -114,6 +114,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/impeached-banner.png",
+            "mob_image": "shopify:\/\/shop_images\/Impeched_Mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -132,6 +133,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Trippi_banner.png",
+            "mob_image": "shopify:\/\/shop_images\/Trippi_show_mobile.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
