@@ -306,6 +306,24 @@
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
+<script>
+
+const banner = document.querySelectorAll('.banner img.for-mob');
+
+const bannerHeight = document.querySelectorAll('.banner');
+
+banner.forEach((ss)=> {
+  
+  bannerHeight.clientHeight = ss.clientHeight;
+  
+});
+
+
+
+
+
+</script>
+
 {% schema %}
   {
     "name": "t:sections.slideshow.name",
