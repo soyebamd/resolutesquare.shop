@@ -105,20 +105,21 @@
             Impliment code for mobile image device
            {% endcomment %}
            
-           <div class="for-desk">
+          
+            
+
+            {% if block.settings.mob_image %}
+            {{ block.settings.mob_image | image_url: width: 700 | image_tag:class:'for-mob' }}
+            {% else %}
             {{ block.settings.image | image_url: width: 3840 | image_tag:
               loading: 'lazy',
+              class:'for-desk',
               height: height,
               sizes: "100vw",
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
             }}
-            </div>
-
-
-
-            <div class="for-mob">
-            {{ block.settings.mob_image | image_url: width: 700 | image_tag:class:'soyebahmed' }}
-            </div>
+          {% endf %}
+          
 
 
 
