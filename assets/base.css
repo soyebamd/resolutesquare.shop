@@ -3021,7 +3021,18 @@ details-disclosure > details {
   line-height: 32px!important;
 }
 
+.for-desk{display:block;}
+
+.for-mob{ display:none;}
+
 @media screen and (max-width: 749px){
+
+  
+.for-desk{ display:none; }
+
+.for-mob{ display:block; }
+
+
     .banner__media{
     height: 44rem!important;
   }
