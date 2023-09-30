@@ -14,6 +14,8 @@
 
 @media screen and (max-width: 749px) {
 
+.slideshow:not(.banner--mobile-bottom) .slideshow__text-wrapper{ height:auto!important;}
+
 .media > img {
     object-fit: contain!important;
     position:relative!important;
@@ -313,8 +315,8 @@
   
   banner.forEach((ss) => {
     bannerHeight.forEach((mm) => {
+      mm.style.height = ss.clientHeight + "px";  
       mm.style.minHeight = ss.clientHeight + "px";  
-      console.log(mm.style.Height);
     });
   });
   
