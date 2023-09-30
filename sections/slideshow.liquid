@@ -116,6 +116,9 @@
 
 
 
+            <div class="for-mob">
+            {{ block.settings.mob_image | image_url: width: 700 | image_tag }}
+            </div>
 
 
 
@@ -306,6 +309,14 @@
           "id": "image",
           "label": "t:sections.slideshow.blocks.slide.settings.image.label"
         },
+
+        {
+          "type": "image_picker",
+          "id": "mob_image",
+          "label": "Mobile Images"
+        },
+
+        
 
         {
           "type": "image_picker",
