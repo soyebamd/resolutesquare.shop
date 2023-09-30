@@ -145,24 +145,21 @@
 
 
             {% comment %} {% if block.settings.mob_image %}
-            {{ block.settings.mob_image | image_url: width: 700 | image_tag: class: 'for-mob', height: 600 }}
+              {{ block.settings.mob_image | image_url: width: 700 | image_tag: class: 'for-mob', height: 600 }}
             {% else %}
-            {{ block.settings.image | image_url: width: 3840 | image_tag:
-            loading: 'lazy',
-            class: 'for-desk',
-            height: height,
-            sizes: "100vw",
-            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
+              {{ block.settings.image | image_url: width: 3840 | image_tag:
+               loading: 'lazy',
+               class: 'for-desk',
+               height: height,
+               sizes: "100vw",
+               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
             {% endif %} {% endcomment %}
 
 
+           
+            {{ block.settings.image | image_url: width: 700 | image_tag:  height: 600 }}
+         
 
-            {{ block.settings.image | image_url: width: 3840 | image_tag:
-             loading: 'lazy',
-             class: 'for-desk',
-             height: height,
-             sizes: "100vw",
-             widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840' }}
 
 
 
