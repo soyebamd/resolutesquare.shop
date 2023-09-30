@@ -58,10 +58,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/R2_Mobile.png",
             "mob_image": "shopify:\/\/shop_images\/R2_Mobile.png",
-            "heading": "",
+            "heading": "test",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
+            "subheading": "test",
+            "button_label": "test",
             "link": "",
             "button_style_secondary": false,
             "box_align": "bottom-left",
