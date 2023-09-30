@@ -307,18 +307,17 @@
 {%- endif -%}
 
 <script>
+  const banner = document.querySelectorAll(".banner .for-mob");
 
-const banner = document.querySelectorAll('.banner .for-mob');
-
-const bannerHeight = document.querySelectorAll('.banner');
-
-banner.forEach((ss)=> {
+  const bannerHeight = document.querySelectorAll(".banner");
   
-  bannerHeight.clientHeight = ss.clientHeight;
+  banner.forEach((ss) => {
+    bannerHeight.forEach((mm) => {
+      mm.style.height = ss.clientHeight + "px";  
+      console.log(mm.style.Height);
+    });
+  });
   
-});
-
-
 
 
 
