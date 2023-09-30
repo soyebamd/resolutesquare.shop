@@ -3023,14 +3023,14 @@ details-disclosure > details {
 
 .for-desk{display:block;}
 
-.for-mob{ display:none;}
+.for-mob{ display:none!important;}
 
 @media screen and (max-width: 749px){
 
   
 .for-desk{ display:none; }
 
-.for-mob{ display:block; }
+.for-mob{ display:block!important; }
 
 
     .banner__media{
