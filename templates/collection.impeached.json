@@ -1,7 +1,24 @@
 {
   "sections": {
+    "d200f297-e839-41a3-b8c4-b18364a23485": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/impeached-banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "show_collection_description": true,
@@ -29,6 +46,7 @@
     }
   },
   "order": [
+    "d200f297-e839-41a3-b8c4-b18364a23485",
     "banner",
     "product-grid"
   ]
