@@ -1,7 +1,24 @@
 {
   "sections": {
+    "4416eab6-10c0-443a-b8c2-489da3ea8640": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/zerolinebanner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "show_collection_description": true,
@@ -29,6 +46,7 @@
     }
   },
   "order": [
+    "4416eab6-10c0-443a-b8c2-489da3ea8640",
     "banner",
     "product-grid"
   ]
