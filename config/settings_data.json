@@ -244,6 +244,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "17135229265405203036": {
+        "type": "shopify:\/\/apps\/quicky\/blocks\/quickBanner\/3421d53e-fb02-449c-a9ef-daf28f28450a",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
