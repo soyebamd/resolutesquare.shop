@@ -302,7 +302,16 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  <!-- PF EDT START -->
+  
+
+<!--Gorgias Chat Widget Start-->
+<script id="gorgias-chat-widget-install-v3" 
+    src="https://config.gorgias.chat/bundle-loader/01GYCCV8BF1B8XYTQHPZ1769N2?source=shopify1click">
+</script>
+<script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
+</script>
+<!--Gorgias Chat Widget End-->
+<!-- PF EDT START -->
 <script type='text/javascript'>
 {%- if content_for_header contains 'shopify-product-customizer' -%}
     {%- if product -%}
@@ -315,7 +324,7 @@
             var pfEdtUseDefaultStyling = {{ shop.metafields.printful.edt_default_style | json }};
             var pfEdtTextAlignment = {{ shop.metafields.printful.edt_text_alignment | json }};
             var pfEdtFlags = {
-                US: "{{ 'US.svg' | asset_url }}",CA: "{{ 'CA.svg' | asset_url }}",ES: "{{ 'ES.svg' | asset_url }}",LV: "{{ 'LV.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",DE: "{{ 'DE.svg' | asset_url }}",FR: "{{ 'FR.svg' | asset_url }}",AU: "{{ 'AU.svg' | asset_url }}",JP: "{{ 'JP.svg' | asset_url }}",NZ: "{{ 'NZ.svg' | asset_url }}",IT: "{{ 'IT.svg' | asset_url }}",BR: "{{ 'BR.svg' | asset_url }}",KR: "{{ 'KR.svg' | asset_url }}",NL: "{{ 'NL.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",
+                US: "{{ 'US.svg' | asset_url }}",CA: "{{ 'CA.svg' | asset_url }}",ES: "{{ 'ES.svg' | asset_url }}",LV: "{{ 'LV.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",DE: "{{ 'DE.svg' | asset_url }}",FR: "{{ 'FR.svg' | asset_url }}",AU: "{{ 'AU.svg' | asset_url }}",JP: "{{ 'JP.svg' | asset_url }}",NZ: "{{ 'NZ.svg' | asset_url }}",IT: "{{ 'IT.svg' | asset_url }}",BR: "{{ 'BR.svg' | asset_url }}",KR: "{{ 'KR.svg' | asset_url }}",NL: "{{ 'NL.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",US: "{{ 'US.svg' | asset_url }}",
             };
         {%- else -%}
             var pfEdt = 0;
@@ -324,13 +333,5 @@
 {%- endif -%}
 </script>
 <!-- PF EDT END -->
-
-<!--Gorgias Chat Widget Start-->
-<script id="gorgias-chat-widget-install-v3" 
-    src="https://config.gorgias.chat/bundle-loader/01GYCCV8BF1B8XYTQHPZ1769N2?source=shopify1click">
-</script>
-<script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
-</script>
-<!--Gorgias Chat Widget End-->
 </body>
 </html>
