@@ -128,6 +128,7 @@
         "blocks": {
           "e40baee1-1e84-424e-86d5-f0cbb281d445": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Free Shipping On Orders Over $150",
               "text_alignment": "center",
