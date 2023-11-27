@@ -6,14 +6,14 @@
         "image": "shopify:\/\/shop_images\/R2_Enemies_BannerV2.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "banner": {
@@ -43,11 +43,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "d2a74158-7c6e-4c61-860d-f8997e3aeb36": {
+      "type": "slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
     }
   },
   "order": [
     "4ff2f78b-3390-4ea8-a399-42a88ae7fa72",
     "banner",
-    "product-grid"
+    "product-grid",
+    "d2a74158-7c6e-4c61-860d-f8997e3aeb36"
   ]
 }
