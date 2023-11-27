@@ -1,7 +1,44 @@
 {
   "sections": {
+    "d9990d8a-5c4b-44b7-a01f-d8d73ba8e55e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21406399791415__d9990d8a-5c4b-44b7-a01f-d8d73ba8e55e-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trippi_banner.png",
+            "mob_image": "shopify:\/\/shop_images\/Trippi_banner_mobile.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21406399791415__d9990d8a-5c4b-44b7-a01f-d8d73ba8e55e-slide-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "0534a2c2-a4fa-4d7c-8a25-a37312c70231": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Trippi_banner.png",
         "image_overlay_opacity": 0,
@@ -46,6 +83,7 @@
     }
   },
   "order": [
+    "d9990d8a-5c4b-44b7-a01f-d8d73ba8e55e",
     "0534a2c2-a4fa-4d7c-8a25-a37312c70231",
     "banner",
     "product-grid"
