@@ -1,7 +1,47 @@
 {
   "sections": {
+    "f5868cac-e38c-440e-8c42-8dcafa77b33c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21406412341559__f5868cac-e38c-440e-8c42-8dcafa77b33c-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/R2_Enemies_BannerV2.png",
+            "mob_image": "shopify:\/\/shop_images\/mobilebannerenemies.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "right"
+          }
+        }
+      },
+      "block_order": [
+        "template--21406412341559__f5868cac-e38c-440e-8c42-8dcafa77b33c-slide-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
     "4ff2f78b-3390-4ea8-a399-42a88ae7fa72": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/R2_Enemies_BannerV2.png",
         "image_overlay_opacity": 0,
@@ -43,24 +83,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "d2a74158-7c6e-4c61-860d-f8997e3aeb36": {
-      "type": "slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": ""
-      }
     }
   },
   "order": [
+    "f5868cac-e38c-440e-8c42-8dcafa77b33c",
     "4ff2f78b-3390-4ea8-a399-42a88ae7fa72",
     "banner",
-    "product-grid",
-    "d2a74158-7c6e-4c61-860d-f8997e3aeb36"
+    "product-grid"
   ]
 }
