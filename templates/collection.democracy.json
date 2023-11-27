@@ -1,7 +1,44 @@
 {
   "sections": {
+    "bf538c3f-8875-4e9a-81fd-1195da747df3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21407041782071__bf538c3f-8875-4e9a-81fd-1195da747df3-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/democracy_PageBanner.png",
+            "mob_image": "shopify:\/\/shop_images\/democracymobile.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21407041782071__bf538c3f-8875-4e9a-81fd-1195da747df3-slide-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "9f6b5705-0ad9-48b7-9fcb-3a6879b3b1c4": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/democracy_PageBanner.png",
         "image_overlay_opacity": 0,
@@ -46,6 +83,7 @@
     }
   },
   "order": [
+    "bf538c3f-8875-4e9a-81fd-1195da747df3",
     "9f6b5705-0ad9-48b7-9fcb-3a6879b3b1c4",
     "banner",
     "product-grid"
