@@ -6,8 +6,8 @@
         "template--21407041782071__bf538c3f-8875-4e9a-81fd-1195da747df3-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/democracy_PageBanner.png",
-            "mob_image": "shopify:\/\/shop_images\/democracymobile.png",
+            "image": "shopify:\/\/shop_images\/SuperBowl_Desktop_Banner.png",
+            "mob_image": "shopify:\/\/shop_images\/SuperBowl_Mobile_Banner.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -40,7 +40,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/democracy_PageBanner.png",
+        "image": "shopify:\/\/shop_images\/SuperBowl_Desktop_Banner.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
