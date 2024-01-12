@@ -276,7 +276,6 @@
         },
         "featured_collection_mwkxGP": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "super-bowl"
           }
