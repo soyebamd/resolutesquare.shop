@@ -18,6 +18,12 @@
             "collection": "resolute-square"
           }
         },
+        "featured_collection_agVMFk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "super-bowl"
+          }
+        },
         "template--21390590116151__2a05e515-8e1a-4660-97c6-99f574842ba5-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
@@ -45,6 +51,7 @@
       },
       "block_order": [
         "template--21390590116151__2a05e515-8e1a-4660-97c6-99f574842ba5-featured_collection-1",
+        "featured_collection_agVMFk",
         "template--21390590116151__2a05e515-8e1a-4660-97c6-99f574842ba5-featured_collection-2",
         "template--21390590116151__2a05e515-8e1a-4660-97c6-99f574842ba5-featured_collection-3",
         "759b65a5-7144-4bd4-a8f4-74ece1f4f9ac",
