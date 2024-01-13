@@ -244,10 +244,16 @@
             "collection": "resolute-square"
           }
         },
-        "4279cbce-bd54-4160-b3f1-de3bb52ab80f": {
+        "featured_collection_mwkxGP": {
           "type": "featured_collection",
           "settings": {
-            "collection": "the-enemy-list"
+            "collection": "super-bowl"
+          }
+        },
+        "74660c28-86ab-4162-8e58-ff057863ca77": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "impeached-convicted"
           }
         },
         "16441e80-3f5d-428c-91b8-e6b82dbcc5d4": {
@@ -256,10 +262,10 @@
             "collection": "books"
           }
         },
-        "74660c28-86ab-4162-8e58-ff057863ca77": {
+        "4279cbce-bd54-4160-b3f1-de3bb52ab80f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "impeached-convicted"
+            "collection": "the-enemy-list"
           }
         },
         "4691d676-65c4-41ed-bfd0-690fe17e5a06": {
@@ -273,12 +279,6 @@
           "settings": {
             "collection": "zeroline"
           }
-        },
-        "featured_collection_mwkxGP": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "super-bowl"
-          }
         }
       },
       "block_order": [
@@ -286,12 +286,12 @@
         "template--16699556331831__c321e0d0-9995-46fd-a51b-73ea2b1160e2-16668152548cf92b3d-1",
         "template--16699556331831__c321e0d0-9995-46fd-a51b-73ea2b1160e2-16668152548cf92b3d-2",
         "c34acee3-85a9-4c9e-8491-25eef747d7d2",
-        "4279cbce-bd54-4160-b3f1-de3bb52ab80f",
-        "16441e80-3f5d-428c-91b8-e6b82dbcc5d4",
+        "featured_collection_mwkxGP",
         "74660c28-86ab-4162-8e58-ff057863ca77",
+        "16441e80-3f5d-428c-91b8-e6b82dbcc5d4",
+        "4279cbce-bd54-4160-b3f1-de3bb52ab80f",
         "4691d676-65c4-41ed-bfd0-690fe17e5a06",
-        "c225c2e4-56f6-44ef-bcde-f9231f48b413",
-        "featured_collection_mwkxGP"
+        "c225c2e4-56f6-44ef-bcde-f9231f48b413"
       ],
       "settings": {
         "title": "FEATURED COLLECTIONS >",
