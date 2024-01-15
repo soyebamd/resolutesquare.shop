@@ -238,16 +238,16 @@
             "collection": "crewneck-sweatshirt"
           }
         },
-        "c34acee3-85a9-4c9e-8491-25eef747d7d2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "resolute-square"
-          }
-        },
         "featured_collection_mwkxGP": {
           "type": "featured_collection",
           "settings": {
             "collection": "super-bowl"
+          }
+        },
+        "c34acee3-85a9-4c9e-8491-25eef747d7d2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "resolute-square"
           }
         },
         "74660c28-86ab-4162-8e58-ff057863ca77": {
@@ -285,8 +285,8 @@
         "template--16699556331831__c321e0d0-9995-46fd-a51b-73ea2b1160e2-16668152548cf92b3d-0",
         "template--16699556331831__c321e0d0-9995-46fd-a51b-73ea2b1160e2-16668152548cf92b3d-1",
         "template--16699556331831__c321e0d0-9995-46fd-a51b-73ea2b1160e2-16668152548cf92b3d-2",
-        "c34acee3-85a9-4c9e-8491-25eef747d7d2",
         "featured_collection_mwkxGP",
+        "c34acee3-85a9-4c9e-8491-25eef747d7d2",
         "74660c28-86ab-4162-8e58-ff057863ca77",
         "16441e80-3f5d-428c-91b8-e6b82dbcc5d4",
         "4279cbce-bd54-4160-b3f1-de3bb52ab80f",
