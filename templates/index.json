@@ -273,12 +273,6 @@
           "settings": {
             "collection": "that-trippy-show"
           }
-        },
-        "c225c2e4-56f6-44ef-bcde-f9231f48b413": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "zeroline"
-          }
         }
       },
       "block_order": [
@@ -290,8 +284,7 @@
         "74660c28-86ab-4162-8e58-ff057863ca77",
         "16441e80-3f5d-428c-91b8-e6b82dbcc5d4",
         "4279cbce-bd54-4160-b3f1-de3bb52ab80f",
-        "4691d676-65c4-41ed-bfd0-690fe17e5a06",
-        "c225c2e4-56f6-44ef-bcde-f9231f48b413"
+        "4691d676-65c4-41ed-bfd0-690fe17e5a06"
       ],
       "settings": {
         "title": "FEATURED COLLECTIONS >",
