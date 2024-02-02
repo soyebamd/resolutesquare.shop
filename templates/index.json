@@ -259,6 +259,12 @@
           "settings": {
             "collection": "the-shows-collection"
           }
+        },
+        "featured_collection_LcnNpm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-shows-collection-1"
+          }
         }
       },
       "block_order": [
@@ -271,7 +277,8 @@
         "16441e80-3f5d-428c-91b8-e6b82dbcc5d4",
         "4279cbce-bd54-4160-b3f1-de3bb52ab80f",
         "4691d676-65c4-41ed-bfd0-690fe17e5a06",
-        "featured_collection_D3zBMA"
+        "featured_collection_D3zBMA",
+        "featured_collection_LcnNpm"
       ],
       "settings": {
         "title": "FEATURED COLLECTIONS >",
