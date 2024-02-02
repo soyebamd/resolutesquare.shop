@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/DEMOCRACY_COLLECTION_BANNER_DESKTOP.png",
             "mob_image": "shopify:\/\/shop_images\/DEMOCRACY_COLLECTION_BANNER_MOBILE.png",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -21,14 +21,32 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_R8abqe": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "template--21407041782071__bf538c3f-8875-4e9a-81fd-1195da747df3-slide-1"
+        "template--21407041782071__bf538c3f-8875-4e9a-81fd-1195da747df3-slide-1",
+        "slide_R8abqe"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
