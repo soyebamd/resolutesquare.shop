@@ -2,11 +2,48 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "background-1"
+      }
+    },
+    "slideshow_9PeDp3": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_FejRGf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DEMOCRACY_COLLECTION_BANNER_DESKTOP.png",
+            "mob_image": "shopify:\/\/shop_images\/DEMOCRACY_COLLECTION_BANNER_MOBILE.png",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FejRGf"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": ""
       }
     },
     "product-grid": {
@@ -30,6 +67,7 @@
   },
   "order": [
     "banner",
+    "slideshow_9PeDp3",
     "product-grid"
   ]
 }
