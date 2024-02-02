@@ -244,12 +244,14 @@
         },
         "4279cbce-bd54-4160-b3f1-de3bb52ab80f": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "the-enemy-list"
           }
         },
         "4691d676-65c4-41ed-bfd0-690fe17e5a06": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "that-trippy-show"
           }
