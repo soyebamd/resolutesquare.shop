@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/resolute-square",
+            "button_link_1": "shopify://collections/resolute-square",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,8 +45,8 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_1157.png",
-        "image_2": "shopify:\/\/shop_images\/R2_newbanner_images.png",
+        "image": "shopify://shop_images/Rectangle_1157.png",
+        "image_2": "shopify://shop_images/R2_newbanner_images.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -56,8 +65,8 @@
         "template--21280820494647__7f7af0f3-e3f3-42e3-bc60-e4bddad3b550-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/r2_Banner.png",
-            "mob_image": "shopify:\/\/shop_images\/R2_Mobile_1.png",
+            "image": "shopify://shop_images/r2_Banner.png",
+            "mob_image": "shopify://shop_images/R2_Mobile_1.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -75,8 +84,8 @@
         "68b85f22-dbbb-46a5-b4ef-301fa740c7e9": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DEMOCRACY_COLLECTION_BANNER_DESKTOP.png",
-            "mob_image": "shopify:\/\/shop_images\/R2_Accesoriesbanner_Desktop.png",
+            "image": "shopify://shop_images/DEMOCRACY_COLLECTION_BANNER_DESKTOP.png",
+            "mob_image": "shopify://shop_images/R2_Accesoriesbanner_Desktop.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -94,8 +103,8 @@
         "273d7ab4-1abc-4c2d-ae43-3718d7a081f0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/use_banner.png",
-            "mob_image": "shopify:\/\/shop_images\/Impeched_Mobile.png",
+            "image": "shopify://shop_images/use_banner.png",
+            "mob_image": "shopify://shop_images/Impeched_Mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -113,8 +122,8 @@
         "f0a47b1d-c7fc-458f-b40a-4fc3fd092498": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/THESHOWS_DESKTOPBANNER.png",
-            "mob_image": "shopify:\/\/shop_images\/Trippi_show_mobile.png",
+            "image": "shopify://shop_images/THESHOWS_DESKTOPBANNER.png",
+            "mob_image": "shopify://shop_images/Trippi_show_mobile.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -150,7 +159,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/R2_newbanner_images_9782da5b-0646-41af-bc1a-1e2e4cef9357.png",
+        "image": "shopify://shop_images/R2_newbanner_images_9782da5b-0646-41af-bc1a-1e2e4cef9357.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -169,14 +178,14 @@
         "template--20871791083831__211f0ea8-f2f0-4080-b82a-7efd554196e8-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Shop the Resolute Square Collection<\/strong><\/p>",
+            "heading": "<p><strong>Shop the Resolute Square Collection</strong></p>",
             "heading_size": "h1"
           }
         },
         "template--20871791083831__211f0ea8-f2f0-4080-b82a-7efd554196e8-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>Help Us Preserve Democracy and Look Good Doing It!<\/strong><\/h3>"
+            "text": "<h3><strong>Help Us Preserve Democracy and Look Good Doing It!</strong></h3>"
           }
         }
       },
@@ -251,7 +260,7 @@
         "16441e80-3f5d-428c-91b8-e6b82dbcc5d4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "books"
+            "collection": "hats-accessories"
           }
         },
         "4279cbce-bd54-4160-b3f1-de3bb52ab80f": {
@@ -298,7 +307,7 @@
     "aed370b7-b36f-47cf-aff3-d5b1415291f3": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width-desktop\"><hr><\/div>",
+        "custom_liquid": "<div class=\"page-width-desktop\"><hr></div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
