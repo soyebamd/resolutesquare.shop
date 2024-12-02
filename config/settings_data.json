@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -117,7 +126,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/RS_favicon.png",
+    "favicon": "shopify://shop_images/RS_favicon.png",
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
@@ -135,19 +144,28 @@
               "color_scheme": "background-1",
               "link": ""
             }
+          },
+          "announcement_yn8QLw": {
+            "type": "announcement",
+            "settings": {
+              "text": "ORDER BY DEC 5 for DELIVERY BY CHRISTMASTAKE 20% OFF ALL ORDERS $50+ WITH CODE CYBER20, TAKE 25% OFF ALL ORDERS $100+ WITH CODE CYBER25 or TAKE 30% OFF ALL ORDERS $200+ WITH CODE CYBER30. SALE ENDS DEC 5",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "e40baee1-1e84-424e-86d5-f0cbb281d445"
+          "e40baee1-1e84-424e-86d5-f0cbb281d445",
+          "announcement_yn8QLw"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-2",
-          "logo": "shopify:\/\/shop_images\/RS_Logo-01_3.png",
+          "logo": "shopify://shop_images/RS_Logo-01_3.png",
           "logo_width": 180,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -173,7 +191,7 @@
           "15398d41-95b7-4d81-ae24-dece90568139": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/RS_Logo-01_3.png",
+              "image": "shopify://shop_images/RS_Logo-01_3.png",
               "image_width": 110,
               "alignment": "center"
             }
@@ -190,7 +208,7 @@
             "disabled": true,
             "settings": {
               "heading": "",
-              "subtext": "<p>© The Lincoln Project 2022 - All Rights Reserved |<a href=\"https:\/\/lincolnproject.us\/pages\/privacy\" target=\"_blank\">Privacy Policy<\/a>|<a href=\"mailto:Info@lincolnproject.us\" target=\"_blank\">Info@lincolnproject.us<\/a><\/p>"
+              "subtext": "<p>© The Lincoln Project 2022 - All Rights Reserved |<a href=\"https://lincolnproject.us/pages/privacy\" target=\"_blank\">Privacy Policy</a>|<a href=\"mailto:Info@lincolnproject.us\" target=\"_blank\">Info@lincolnproject.us</a></p>"
             }
           }
         },
@@ -228,18 +246,15 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15079184273603081885": {
-        "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "type": "shopify://apps/essential-shipping-bar/blocks/app_embed/4125375e-37c8-4137-949d-c4e1a3aac572",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "127709043890318779": {
-        "type": "shopify:\/\/apps\/aiod-automatic-discount\/blocks\/install-snippets\/9537caf0-36d5-4981-a648-8961a8e85652",
+        "type": "shopify://apps/aiod-automatic-discount/blocks/install-snippets/9537caf0-36d5-4981-a648-8961a8e85652",
         "disabled": true,
         "settings": {
           "aiod_v2_call": "",
@@ -388,8 +403,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -429,7 +443,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
